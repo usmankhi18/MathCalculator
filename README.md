@@ -2,6 +2,64 @@
   <img width="200" height="200" src="https://github.com/usmankhi18/CalculatorApp/blob/master/resources/icon.png">
 </p>
 
+Installation:
+
+    ionic plugin add https://github.com/usmankhi18/MathCalculator.git
+
+
+Supported Platforms:
+
+    Android
+
+
+Plugin usage:
+
+          add()
+          {
+              let data = {
+                  param1: this.param1,
+                  param2: this.param2
+               }
+              this.math.add(data).then(result => {
+              this.answer = result;
+              }).catch(err => alert("Error : " + err));
+          }
+          
+          substract()
+          {
+              let data = {
+                param1: this.param1,
+                param2: this.param2
+              }
+              this.math.substract(data).then(result => {
+              this.answer = result;
+              }).catch(err => alert("Error : " + err));
+          }
+
+          multiply()
+          {
+              let data = {
+                param1: this.param1,
+                param2: this.param2
+              }
+              this.math.multiply(data).then(result => {
+              this.answer = result;
+              }).catch(err => alert("Error : " + err));
+          }
+  
+          divide()
+          {
+              let data = {
+                  param1: this.param1,
+                  param2: this.param2
+              }
+              this.math.divide(data).then(result => {
+              this.answer = result;
+              }).catch(err => alert("Error : " + err));
+          }
+            
+Create Plugin Process: 
+
 1. Install Node JS
     https://nodejs.org/en/
 
