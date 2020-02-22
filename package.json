@@ -1,0 +1,27 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "description": "This is calculator plugin for learning purpose, created by : M.Usman Khan",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/usmankhi18/MathCalculator.git"
+  },
+  "keywords": [
+    "Usman",
+    "Ionic",
+    "Calculator",
+    "cordova",
+    "plugin"
+  ],
+  "author": "M.Usman Khan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/usmankhi18/MathCalculator/issues"
+  },
+  "homepage": "https://github.com/usmankhi18/MathCalculator#readme",
+  "dependencies": {}
+}
